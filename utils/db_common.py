@@ -1,7 +1,7 @@
 from fastapi import Depends, HTTPException, status
-from database import sessionlocal
+from utils.database import sessionlocal
 from typing import Annotated
-from models import User
+from utils.models import User
 from jose import jwt, JWTError
 from datetime import timedelta, datetime, timezone
 from sqlalchemy.orm import Session

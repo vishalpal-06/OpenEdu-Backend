@@ -1,7 +1,7 @@
 from fastapi import APIRouter ,Depends, HTTPException, status
 from typing import Annotated
 from pydantic import BaseModel
-from common_func import (
+from utils.db_common import (
     authenticate_user,
     create_access_token,
     db_dependency

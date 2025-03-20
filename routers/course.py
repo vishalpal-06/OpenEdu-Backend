@@ -1,6 +1,7 @@
 from pydantic import BaseModel
-from models import User,Course
-from common_func import (
+from utils.models import User,Course
+from utils.models import User,Course
+from utils.db_common import (
     db_dependency, 
     bcrypt_context,
     user_dependency

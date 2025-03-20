@@ -5,8 +5,8 @@ from routers import (
     enrollment,
     access,
 )
-from database import engine
-import models
+from utils.database import engine
+from utils import models
 
 app = FastAPI()
 
